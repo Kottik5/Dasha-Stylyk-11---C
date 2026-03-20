@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Оплата</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Оплата</h1>
+
+<nav class="menu">
+    <a href="./index.html">Головна</a>
+</nav>
+
+<h2>Введіть ваші дані</h2>
+<form action="#" method="post" class="payment-form">
+    <label for="name">Ім'я:</label><br>
+    <input type="text" id="name" name="name" placeholder="Ваше ім'я" required><br><br>
+
+    <label for="surname">Прізвище:</label><br>
+    <input type="text" id="surname" name="surname" placeholder="Ваше прізвище" required><br><br>
+
+    <label for="phone">Телефон:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="098-XXX-XX-XX" required><br><br>
+
+    <label for="payment">Спосіб оплати:</label><br>
+    <select id="payment" name="payment">
+        <option value="card">Картка</option>
+        <option value="googlepay">Google Pay</option>
+        <option value="applepay">Apple Pay</option>
+    </select><br><br>
+
+    <input type="submit" value="Оплатити">
+</form>
+
+</body>
+</html>

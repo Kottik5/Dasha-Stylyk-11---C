@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA; /* світло ліловий фон */
+    color: #4B0082; /* темно-фіолетовий текст */
+    text-align: center;
+}
+
+h1 { margin-bottom: 20px; }
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #87CEFA; /* блакитні кнопки */
+    color: white;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.menu a:hover { background-color: #9370DB; }
+
+img {
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
